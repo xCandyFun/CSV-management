@@ -18,7 +18,6 @@ public class Main {
     public static void main(String[] args) {
         CD.connectTodatabase();
         ChooseWhatToDo();
-
     }
 
     private static void ChooseWhatToDo(){
