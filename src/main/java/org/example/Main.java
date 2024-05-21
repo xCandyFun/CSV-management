@@ -47,7 +47,6 @@ public class Main {
 
                 String[] data1 = {name, age};
                 writer.writeNext(data1);
-
             }
 
             System.out.println("CSV file created successfully.");
@@ -55,8 +54,6 @@ public class Main {
         }catch (IOException e){
             e.printStackTrace();
         }
-
-
     }
 
     private static void saveLoginToCsvFile(){
@@ -84,15 +81,11 @@ public class Main {
             String[] data1 = {name, age, role};
             writer.writeNext(data1);
 
-
-
             System.out.println("CSV file created successfully.");
 
         }catch (IOException e){
             e.printStackTrace();
         }
-
-
     }
 
     private static void listAllfiles(){
